@@ -1,0 +1,21 @@
+@mixin centery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin input{
+        width: 14rem;
+        height: 2rem;
+        
+}
+
+@mixin button{
+    
+        background-color: $colorButton;
+        color: $colorText;
+        height: 2rem;
+        width: 5rem;
+        border: none;
+    
+}

@@ -1,0 +1,19 @@
+@import "./base/reset";
+@import "./abstracts/variables", "./abstracts/mixin";
+@import "./components/button";
+@import "./pages/home","./pages/about","./pages/services";
+
+
+
+ body{
+     width: 100vw;
+    height: 100vh;
+    font-family: $fontFam;
+}
+
+
+
+
+
+
+

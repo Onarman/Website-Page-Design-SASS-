@@ -1,0 +1,136 @@
+
+
+.body-services{
+    height: 100vh;
+
+    .header-services{
+        height: 8vh;
+        display: flex;
+        @include centery;
+        color: $colorText;
+        background-color: $navBgColors;
+        font-size: 1.2rem;
+        border-bottom: 3px solid $claruswayPink;
+    
+    
+        .header-left{
+            color: $claruswayPink;
+            font-weight: bolder;
+            padding-left: 1rem;
+    
+            span{
+                color: $colorText;
+            }
+        }
+    
+    
+        .header-right{
+            ul{
+                
+                
+                li{
+                    display: inline;
+                    margin-right: 2rem;
+                    text-transform: uppercase;
+                    .services-color{
+                        color: $claruswayPink;
+                    }
+                    
+    
+                    a{
+                        color: $colorText;
+                        text-decoration: none;
+                            
+                    }
+             
+                }
+            }
+        }
+    }
+
+    .main-services{
+        height: 80vh;
+        .sec-1{
+        
+            height: 8vh;
+            background-color: $navBgColors;
+            @include centery;
+            padding: 0 1.2rem;
+            color: $colorText;
+        
+            .sec-1-left{
+                
+                    span{
+                        font-size: 1.3rem;
+                        font-weight: bolder;
+                    }        
+            }
+            input{
+                @include input;        
+            }
+            button{
+                @include button;
+            }
+        
+        }
+
+        .sec-2{
+            display: flex;
+            height: 70vh;
+            background-color: white;
+            color: black;
+
+           #srv{
+               
+               display: inline;
+               
+           }
+
+            .left-services{
+                padding: 1rem 2rem;
+                width: 70%;
+                height: 95%;
+                
+                
+                
+                .webs-1,.webs-2,.webs-3{
+                    border: 1px solid rgb(177, 174, 174);
+                    margin-bottom: 4px;
+                    background-color: $serviceBgColor;
+                    padding: 3rem;
+                    line-height: 2rem;
+                    height: 21vh;
+
+                }
+            }
+
+            .form{
+                position: relative;
+                padding: 1rem;
+                width: 30%;
+                background-color: $navBgColors;
+                color: $colorText;
+                height: 22vh;
+                margin-bottom: 40%;
+                
+                
+
+                form{
+
+                    input,textarea{
+                        width: 90%;
+                    }
+                }
+            }
+            
+        }
+
+
+
+    }
+
+    footer{
+        height: 12vh;
+    }
+
+}

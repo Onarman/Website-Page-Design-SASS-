@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-home {
+  height: 100vh;
+}
+
+.header-home {
+  height: 8vh;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #35424A;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #A9508B;
+}
+.header-home .header-left {
+  color: #A9508B;
+  font-weight: bolder;
+  padding-left: 1rem;
+}
+.header-home .header-left span {
+  color: white;
+}
+.header-home .header-right ul li {
+  display: inline;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+.header-home .header-right ul li .home-color {
+  color: #A9508B;
+}
+.header-home .header-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-home {
+  height: 80vh;
+}
+.main-home .sec-1 {
+  height: 45vh;
+  background-image: url(../../images/showcase.jpg);
+  background-size: cover;
+}
+.main-home .ptext {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  align-items: center;
+  color: white;
+  line-height: 3rem;
+  font-size: larger;
+}
+
+.sec-2 {
+  height: 8vh;
+  background-color: #35424A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+  color: white;
+}
+.sec-2 .sec-2-left span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.sec-2 input {
+  width: 14rem;
+  height: 2rem;
+}
+.sec-2 button {
+  background-color: #E44E27;
+  color: white;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+}
+
+.sec-3 {
+  height: 27vh;
+}
+.sec-3 .paths {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+.sec-3 .paths h5 {
+  margin-bottom: 2rem;
+}
+.sec-3 .paths img {
+  width: 7rem;
+}
+
+footer {
+  height: 12vh;
+  background-color: #35424A;
+  color: white;
+  text-align: center;
+}
+footer .footy {
+  position: relative;
+  top: 25%;
+}
+footer img {
+  width: 13rem;
+}
+
+.body-about {
+  height: 100vh;
+}
+.body-about .header-about {
+  height: 8vh;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #35424A;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #A9508B;
+}
+.body-about .header-about .header-left {
+  color: #A9508B;
+  font-weight: bolder;
+  padding-left: 1rem;
+}
+.body-about .header-about .header-left span {
+  color: white;
+}
+.body-about .header-about .header-right ul li {
+  display: inline;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+.body-about .header-about .header-right ul li .about-color {
+  color: #A9508B;
+}
+.body-about .header-about .header-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+.body-about .main-about .sec-1 {
+  height: 8vh;
+  background-color: #35424A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+  color: white;
+}
+.body-about .main-about .sec-1 .sec-1-left span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.body-about .main-about .sec-1 input {
+  width: 14rem;
+  height: 2rem;
+}
+.body-about .main-about .sec-1 button {
+  background-color: #E44E27;
+  color: white;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+}
+.body-about .main-about .sec-2 {
+  border: 2px solid red;
+  height: 72vh;
+  background-color: white;
+  position: relative;
+  align-items: flex-start;
+}
+.body-about .main-about .sec-2 .sec-2-left {
+  display: block;
+  padding: 2rem;
+  width: 70%;
+}
+.body-about .main-about .sec-2 .sec-2-left .sec-2-light {
+  color: black;
+}
+.body-about .main-about .sec-2 .sec-2-left .sec-2-dark {
+  background-color: #35424A;
+}
+.body-about .main-about .sec-2 .sec-2-right {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 30%;
+  background-color: #35424A;
+}
+.body-about footer {
+  height: 12vh;
+  background-color: #35424A;
+  color: white;
+  text-align: center;
+}
+.body-about footer .footy {
+  position: relative;
+  top: 25%;
+}
+.body-about footer img {
+  width: 13rem;
+}
+
+.body-services {
+  height: 100vh;
+}
+.body-services .header-services {
+  height: 8vh;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #35424A;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #A9508B;
+}
+.body-services .header-services .header-left {
+  color: #A9508B;
+  font-weight: bolder;
+  padding-left: 1rem;
+}
+.body-services .header-services .header-left span {
+  color: white;
+}
+.body-services .header-services .header-right ul li {
+  display: inline;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+.body-services .header-services .header-right ul li .services-color {
+  color: #A9508B;
+}
+.body-services .header-services .header-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+.body-services .main-services {
+  height: 80vh;
+}
+.body-services .main-services .sec-1 {
+  height: 8vh;
+  background-color: #35424A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+  color: white;
+}
+.body-services .main-services .sec-1 .sec-1-left span {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.body-services .main-services .sec-1 input {
+  width: 14rem;
+  height: 2rem;
+}
+.body-services .main-services .sec-1 button {
+  background-color: #E44E27;
+  color: white;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+}
+.body-services .main-services .sec-2 {
+  display: flex;
+  height: 70vh;
+  background-color: white;
+  color: black;
+}
+.body-services .main-services .sec-2 #srv {
+  display: inline;
+}
+.body-services .main-services .sec-2 .left-services {
+  padding: 1rem 2rem;
+  width: 70%;
+  height: 95%;
+}
+.body-services .main-services .sec-2 .left-services .webs-1, .body-services .main-services .sec-2 .left-services .webs-2, .body-services .main-services .sec-2 .left-services .webs-3 {
+  border: 1px solid rgb(177, 174, 174);
+  margin-bottom: 4px;
+  background-color: #F4F4F4;
+  padding: 3rem;
+  line-height: 2rem;
+  height: 21vh;
+}
+.body-services .main-services .sec-2 .form {
+  position: relative;
+  padding: 1rem;
+  width: 30%;
+  background-color: #35424A;
+  color: white;
+  height: 22vh;
+  margin-bottom: 40%;
+}
+.body-services .main-services .sec-2 .form form input, .body-services .main-services .sec-2 .form form textarea {
+  width: 90%;
+}
+.body-services footer {
+  height: 12vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

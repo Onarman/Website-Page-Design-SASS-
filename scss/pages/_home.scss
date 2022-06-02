@@ -1,0 +1,126 @@
+.body-home{
+    height: 100vh;
+}
+
+.header-home{
+    height: 8vh;
+    display: flex;
+    @include centery;
+    color: $colorText;
+    background-color: $navBgColors;
+    font-size: 1.2rem;
+    border-bottom: 3px solid $claruswayPink;
+
+
+    .header-left{
+        color: $claruswayPink;
+        font-weight: bolder;
+        padding-left: 1rem;
+
+        span{
+            color: $colorText;
+        }
+    }
+
+
+    .header-right{
+        ul{
+            
+            
+            li{
+                display: inline;
+                margin-right: 2rem;
+                text-transform: uppercase;
+                .home-color{
+                    color: $claruswayPink;
+                }
+                
+
+                a{
+                    color: $colorText;
+                    text-decoration: none;
+                        
+                }
+         
+            }
+        }
+    }
+}
+
+.main-home{
+    height: 80vh;
+    .sec-1{
+        height: 45vh;
+        background-image: url(../../images/showcase.jpg);
+        background-size: cover;
+
+    }
+    .ptext{
+        position: relative;
+        top: 50%;
+        text-align: center;
+        align-items: center;
+        color: $colorText;
+        line-height: 3rem;
+       font-size: larger;
+    }
+}
+
+.sec-2{
+    height: 8vh;
+    background-color: $navBgColors;
+    @include centery;
+    padding: 0 1.2rem;
+    color: $colorText;
+
+    .sec-2-left{
+        
+            span{
+                font-size: 1.1rem;
+                font-weight: bold;
+            }        
+    }
+    input{
+        @include input;        
+    }
+    button{
+        @include button;
+    }
+}
+
+.sec-3{
+    height: 27vh;
+    .paths{
+        @include centery;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 1rem;
+        gap: 1rem;
+        padding: 0 2rem;
+        
+        h5{
+            margin-bottom: 2rem;
+        }
+        
+        img{
+            width: 7rem;
+        }
+    }  
+}
+
+footer{
+    height: 12vh;
+    background-color: $navBgColors;
+    color: $colorText;
+    text-align: center;
+    
+
+    .footy{
+       position: relative;
+       top:25%; 
+    }
+
+    img{
+        width: 13rem;
+    }
+}
